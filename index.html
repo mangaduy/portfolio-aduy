@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mang Aduy | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header role="banner">
+        <div class="container">
+            <h1 id="user-name">MANG ADUY</h1>
+            <p id="headline" class="headline"></p>
+            <div id="pdf-control">
+                <button id="btn-pdf" onclick="window.print()" class="btn-gold no-print">Download Professional Profile</button>
+            </div>
+        </div>
+    </header>
+
+    <nav aria-label="Navigasi Utama" id="sticky-nav">
+        <div class="container">
+            <ul id="nav-list"></ul>
+        </div>
+    </nav>
+
+    <main id="main-content" role="main">
+        <div class="container">
+            <section id="about-section">
+                <div id="about-text"></div>
+            </section>
+
+            <div id="dynamic-sections"></div>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <button id="btn-booking" class="btn-gold no-print" onclick="window.open(window.tallyUrl)">Book a Session / Collaborate</button>
+            <p id="footer-branding" class="footer-name"></p>
+            <p class="power-by">Powered by <span id="pt-name">PT Peteng Pijar Prana</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
