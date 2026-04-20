@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mang Aduy | Professional Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <title>Mang Aduy | Portofolio Profesional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#main-content" class="skip-link">Loncat ke konten utama</a>
     
     <header role="banner">
         <div class="container">
             <h1 id="user-name">MANG ADUY</h1>
             <p id="headline" class="headline"></p>
             <div id="pdf-control">
-                <button id="btn-pdf" onclick="window.print()" class="btn-gold no-print">Download Professional Profile</button>
+                <button id="btn-pdf" onclick="window.print()" class="btn-gold no-print">Download PDF CV</button>
             </div>
         </div>
     </header>
@@ -31,7 +31,6 @@
             <section id="about-section">
                 <div id="about-text"></div>
             </section>
-
             <div id="dynamic-sections"></div>
         </div>
     </main>
@@ -40,21 +39,11 @@
         <div class="container">
             <button id="btn-booking" class="btn-gold no-print" onclick="window.open(window.tallyUrl)">Book a Session / Collaborate</button>
             <p id="footer-branding" class="footer-name"></p>
+            <p id="copyright-text" class="copyright"></p>
             <p class="power-by">Powered by <span id="pt-name">PT Peteng Pijar Prana</span></p>
         </div>
     </footer>
 
     <script src="script.js"></script>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
 </body>
 </html>
