@@ -2,8 +2,8 @@
   "headline": "Co-founder & Barista of Bar Peteng | Certified Professional Barista | Accessibility Consultant",
   "about": "Professional Barista and Entrepreneur currently based in Leeds, UK. Co-founder of [Bar Peteng](https://instagram.com/barpeteng). Certified professional from ABCD School of Coffee (Cohort 612).",
   "settings": {
-    "show_pdf": true,
-    "show_booking": true,
+    "show_pdf": false,
+    "show_booking": false,
     "tally_url": "https://tally.so/r/id-tally-lo"
   },
   "sections": [
