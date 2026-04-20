@@ -7,15 +7,20 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
+  <div id="nc-root"></div>
+
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
   <script>
+    // Konfigurasi CMS
     CMS.init({
       config: {
         backend: {
           name: "git-gateway",
-          repo: "mangaduy/portfolio-aduy", // <--- GANTI INI MANG!
+          repo: "mangaduy/portfolio-aduy", // GANTI INI MANG!
           branch: "main"
         },
+        display_url: window.location.origin,
         media_folder: "assets",
         public_folder: "assets",
         collections: [
