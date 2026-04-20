@@ -1,10 +1,10 @@
 {
   "headline": "Co-founder & Barista of Bar Peteng | Certified Professional Barista | Accessibility Consultant",
-  "about": "Professional Barista and Entrepreneur currently based in Leeds, UK. Co-founder of [Bar Peteng](https://instagram.com/barpeteng). A certified professional from ABCD School of Coffee (Cohort 612) with 17+ years in the music industry and expertise in digital accessibility auditing (WCAG).",
+  "about": "Professional Barista and Entrepreneur currently based in Leeds, UK. Co-founder of [Bar Peteng](https://instagram.com/barpeteng). Certified professional from ABCD School of Coffee (Cohort 612).",
   "settings": {
     "show_pdf": true,
     "show_booking": true,
-    "tally_url": "https://tally.so/r/your-id"
+    "tally_url": "https://tally.so/r/id-tally-lo"
   },
   "sections": [
     {
@@ -14,41 +14,12 @@
           "year": "2021",
           "title": "ABCD School of Coffee - Cohort 612",
           "desc": "Certified Professional Barista. Mastery in Appreciation, Brewing, Cupping, and Definitive Espresso."
-        },
-        {
-          "year": "2023 - 2025",
-          "title": "Pouring in the Dark (PITD)",
-          "desc": "Creator of the registered IP 'Pouring in the Dark'—a unique sensory coffee experience in total darkness."
-        },
-        {
-          "year": "Current",
-          "title": "520+ Days Visual Documentation",
-          "desc": "Maintaining a professional daily brewing documentation streak using DJI Osmo Pocket 3."
-        }
-      ]
-    },
-    {
-      "name": "Tech & Accessibility",
-      "items": [
-        {
-          "year": "2023 - Present",
-          "title": "Accessibility Consultant",
-          "desc": "Auditing digital platforms and physical environments based on WCAG standards for CBM Global."
-        }
-      ]
-    },
-    {
-      "name": "Professional History",
-      "items": [
-        {
-          "year": "2000 - 2017",
-          "title": "Professional Musician (Bassist)",
-          "desc": "17 years of experience. Performances include Thailand Blind Music Festival (2013-2014)."
         }
       ]
     }
   ],
   "branding": {
-    "footer_name": "Mang Aduy | Professional Barista & Consultant"
+    "footer_name": "MANG ADUY PORTFOLIO PROFESIONAL",
+    "copyright": "Copyright 2026 Mang Aduy"
   }
 }
