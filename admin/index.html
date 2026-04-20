@@ -3,57 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mang Aduy - Admin Dashboard</title>
+  <title>Admin Dashboard | Mang Aduy</title>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <style>
-    /* Menghilangkan elemen pengganggu yang sering bikin error removeChild */
-    [data-slate-editor] { -webkit-user-modify: read-write !important; }
-  </style>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   <script>
-    // Inisialisasi CMS
-    CMS.init({
-      config: {
-        backend: { 
-          name: "git-gateway", 
-          branch: "main" 
-        },
-        media_folder: "assets",
-        public_folder: "assets",
-        collections: [{
-          name: "config",
-          label: "Portfolio Data",
-          files: [{
-            file: "config.json",
-            label: "Main Content",
-            name: "main",
-            fields: [
-              { label: "Headline", name: "headline", widget: "string" },
-              { label: "About Bio", name: "about", widget: "markdown" },
-              { label: "Settings", name: "settings", widget: "object", fields: [
-                { label: "Show PDF Button", name: "show_pdf", widget: "boolean" },
-                { label: "Show Booking Button", name: "show_booking", widget: "boolean" },
-                { label: "Tally URL", name: "tally_url", widget: "string" }
-              ]},
-              { label: "Sections", name: "sections", widget: "list", fields: [
-                { label: "Section Name", name: "name", widget: "string" },
-                { label: "Items", name: "items", widget: "list", fields: [
-                  { label: "Year", name: "year", widget: "string" },
-                  { label: "Title", name: "title", widget: "string" },
-                  { label: "Description", name: "desc", widget: "markdown" },
-                  { label: "Media Link", name: "video", widget: "string", required: false }
-                ]}
-              ]},
-              { label: "Footer Branding", name: "branding", widget: "object", fields: [
-                { label: "Name", name: "footer_name", widget: "string" }
-              ]}
-            ]
-          }]
-        }]
-      }
-    });
+    // Script ini opsional, tapi bagus untuk otomatis redirect setelah login
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
   </script>
 </body>
 </html>
