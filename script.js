@@ -6,6 +6,7 @@ async function init() {
         document.getElementById('headline').innerText = data.headline;
         document.getElementById('about-text').innerHTML = parseMarkdown(data.about);
         document.getElementById('footer-branding').innerText = data.branding.footer_name;
+        document.getElementById('copyright-text').innerText = data.branding.copyright || "© 2026 Mang Aduy";
         window.tallyUrl = data.settings.tally_url;
 
         if(!data.settings.show_pdf) document.getElementById('pdf-control').style.display = 'none';
@@ -34,7 +35,7 @@ async function init() {
             });
             mainContainer.appendChild(secEl);
         });
-    } catch (e) { console.error("Error dimuat Mang!", e); }
+    } catch (e) { console.error("Data error Mang!", e); }
 }
 
 function parseMarkdown(text) {
