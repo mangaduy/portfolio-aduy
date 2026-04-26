@@ -68,6 +68,22 @@ collections:
               - label: Nama Tampilan Atas/Bawah
                 name: footer_name
                 widget: string
-              - label: Teks Copyright
+- label: Social Media
+  name: social
+  widget: object
+  fields:
+    - label: Instagram URL
+      name: instagram
+      widget: string
+      required: false
+    - label: TikTok URL
+      name: tiktok
+      widget: string
+      required: false
+    - label: YouTube URL
+      name: youtube
+      widget: string
+      required: false
+      - label: Teks Copyright
                 name: copyright
                 widget: string
