@@ -42,4 +42,19 @@ function parseMarkdown(text) {
     return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="inline-link" target="_blank">$1</a>');
 }
 
+function renderSocial(social) {
+    const links = [
+        { key: 'instagram', label: 'Instagram' },
+        { key: 'tiktok', label: 'TikTok' },
+        { key: 'youtube', label: 'YouTube' }
+    ];
+    const html = links
+        .filter(s => social[s.key])
+        .map(s => `<a href="${social[s.key]}" class="social-link" target="_blank">${s.label}</a>`)
+        .join('');
+    const el = document.createElement('div');
+    el.id = 'social-links';
+    el.innerHTML = html;
+    document.querySelector('footer .container').prepend(el);
+}
 init();
