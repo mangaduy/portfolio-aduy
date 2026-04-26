@@ -4,7 +4,7 @@ backend:
   branch: main
   base_url: https://api.netlify.com
   auth_endpoint: auth
-  site_domain: yudhaaduy.netlify.app
+  site_domain: mangaduy.netlify.app
   site_id: 2af77c4d-a675-4e96-90d6-6539f7edc83c
   
 media_folder: assets
