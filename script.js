@@ -8,7 +8,8 @@ async function init() {
         document.getElementById('footer-branding').innerText = data.branding.footer_name;
         document.getElementById('copyright-text').innerText = data.branding.copyright || "© 2026 Mang Aduy";
         window.tallyUrl = data.settings.tally_url;
-
+if(data.social) renderSocial(data.social);
+        
         if(!data.settings.show_pdf) document.getElementById('pdf-control').style.display = 'none';
         if(!data.settings.show_booking) document.getElementById('btn-booking').style.display = 'none';
 
