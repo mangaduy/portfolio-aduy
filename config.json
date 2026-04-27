@@ -1,95 +1,18 @@
 {
-  "headline": "Co-founder & Barista of Bar Peteng | Certified Professional Barista | Accessibility Consultant",
-  "about": "Professional Barista and Entrepreneur currently based in Leeds, UK. Co-founder of [Bar Peteng](https://instagram.com/barpeteng). A certified professional from ABCD School of Coffee (Cohort 612) with 17+ years in the music industry and expertise in digital accessibility auditing (WCAG).",
+  "social": {
+    "youtube": "https://youtube.com/MangAduy",
+    "tiktok": "https://tiktok.com/@mng.aduy",
+    "instagram": "https://instagram.com/mang.aduy"
+  },
+  "branding": {
+    "copyright": "Mang Aduy",
+    "footer_name": "Co-Founder of Bar Peteng | Professional Barista | Creative Entrepreneur & Accessibility Consultant"
+  },
+  "about": "Saya adalah seorang wirausahawan dan profesional kopi spesialti yang bergerak di titik temu antara presisi teknis, pengembangan kekayaan intelektual, dan konsultasi aksesibilitas.",
+  "headline": "Mengintegrasikan presisi teknis, disiplin profesional, dan inklusi strategis dalam setiap kolaborasi.",
   "settings": {
     "show_pdf": true,
     "show_booking": true,
-    "tally_url": "https://tally.so/r/your-id"
-  },
-  "sections": [
-    {
-      "name": "Foundership & Business",
-      "items": [
-        {
-          "year": "2024 - Present",
-          "title": "Co-founder Bar Peteng (PT Peteng Pijar Prana)",
-          "desc": "Specialized slow coffee bar business and coffee-related content production."
-        },
-        {
-          "year": "Founder",
-          "title": "KabarDifabel.com",
-          "desc": "Media and news platform focusing on disability rights and community storytelling."
-        },
-        {
-          "year": "Founder",
-          "title": "Kopi Djamoe Mertjon Mang Aduy",
-          "desc": "Innovative F&B venture merging traditional herbal wisdom with modern coffee brewing."
-        },
-        {
-          "year": "Founder",
-          "title": "Mang Aduy Laundry",
-          "desc": "Entrepreneurial management of a service-based local business."
-        }
-      ]
-    },
-    {
-      "name": "Tech & Accessibility",
-      "items": [
-        {
-          "year": "2023 - Present",
-          "title": "Accessibility Consultant - CBM Global",
-          "desc": "Digital and physical environment accessibility auditing based on WCAG standards."
-        },
-        {
-          "year": "Project Leader",
-          "title": "ATM Beras",
-          "desc": "Social-tech innovation for automated rice distribution systems."
-        },
-        {
-          "year": "Expert Trainer",
-          "title": "Kementerian Kominfo",
-          "desc": "Leading training sessions on digital inclusion and accessible technology."
-        }
-      ]
-    },
-    {
-      "name": "Coffee & Training History",
-      "items": [
-        {
-          "year": "2021",
-          "title": "ABCD School of Coffee - Cohort 612",
-          "desc": "Certified Professional Barista (Appreciation, Brewing, Cupping, Definitive Espresso)."
-        },
-        {
-          "year": "2017 - 2018",
-          "title": "Lead Trainer - BPBI Abiyoso",
-          "desc": "Conducted 3 specialized professional training cycles for capacity development."
-        },
-        {
-          "year": "Expert Trainer",
-          "title": "Kemendikbud & Yayasan Kolaborasi",
-          "desc": "Vocational training and inclusive education development programs."
-        }
-      ]
-    },
-    {
-      "name": "Creative Industry",
-      "items": [
-        {
-          "year": "2000 - 2017",
-          "title": "Professional Musician (Bassist)",
-          "desc": "Extensive career with 17 years in the music industry and international festival performances."
-        }
-      ]
-    }
-  ],
-  "branding": {
-    "footer_name": "MANG ADUY",
-    "copyright": "Copyright 2026 Mang Aduy"
+    "tally_url": "https://tally.com/"
   }
-"social": {
-  "instagram": "https://instagram.com/mang.aduy",
-  "tiktok": "https://tiktok.com/@mng.aduy",
-  "youtube": "https://youtube.com/@Mang-Aduy"
-}
 }
