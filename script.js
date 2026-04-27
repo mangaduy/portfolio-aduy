@@ -7,6 +7,11 @@ async function init() {
         document.getElementById('about-text').innerHTML = parseMarkdown(data.about);
         document.getElementById('footer-branding').innerText = data.branding.footer_name;
         document.getElementById('footer-branding').innerText = data.branding.footer_name;
+        if(data.branding.photo) {
+    const img = document.getElementById('profile-photo');
+    img.src = data.branding.photo;
+    img.style.display = 'block';
+}
 document.getElementById('user-name').innerText = data.branding.footer_name;
         document.getElementById('copyright-text').innerText = data.branding.copyright || "© 2026 Mang Aduy";
         window.tallyUrl = data.settings.tally_url;
