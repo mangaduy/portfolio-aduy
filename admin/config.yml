@@ -65,6 +65,10 @@ collections:
             name: branding
             widget: object
             fields:
+            - label: Foto Profil
+  name: photo
+  widget: image
+  required: false
               - label: Nama Tampilan Atas/Bawah
                 name: footer_name
                 widget: string
