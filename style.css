@@ -42,3 +42,6 @@ footer { text-align: center; padding: 60px 0; border-top: 1px solid #222; }
 #social-links { margin-bottom: 20px; }
 #social-links .social-link { color: var(--accent-color); text-decoration: none; margin: 0 12px; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; }
 #social-links .social-link:hover { color: white; }
+
+#profile-photo-wrapper { display: flex; justify-content: center; margin-bottom: 20px; }
+#profile-photo { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-color); display: none; }
