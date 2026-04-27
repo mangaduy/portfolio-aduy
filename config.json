@@ -1,19 +1,18 @@
 {
-  "social": {
-    "youtube": "https://youtube.com/MangAduy",
-    "tiktok": "https://tiktok.com/@mng.aduy",
-    "instagram": "https://instagram.com/mang.aduy"
-  },
   "branding": {
-    "copyright": "Mang Aduy",
-    "footer_name": "Co-Founder of Bar Peteng | Professional Barista | Creative Entrepreneur & Accessibility Consultant"
-    "photo": ""
+    "footer_name": "Co-Founder of Bar Peteng | Professional Barista | Creative Entrepreneur & Accessibility Consultant",
+    "copyright": "Mang Aduy"
   },
-  "about": "Saya adalah seorang wirausahawan dan profesional kopi spesialti yang bergerak di titik temu antara presisi teknis, pengembangan kekayaan intelektual, dan konsultasi aksesibilitas.",
-  "headline": "Mengintegrasikan presisi teknis, disiplin profesional, dan inklusi strategis dalam setiap kolaborasi.",
+  "social": {
+    "instagram": "https://instagram.com/mang.aduy",
+    "tiktok": "https://tiktok.com/@mng.aduy",
+    "youtube": "https://youtube.com/MangAduy"
+  },
   "settings": {
-    "show_pdf": true,
-    "show_booking": true,
-    "tally_url": "https://tally.com/"
-  }
+    "tally_url": "https://tally.com",
+    "show_booking": false,
+    "show_pdf": false
+  },
+  "about": "Saya Mang Aduy.",
+  "headline": "Mengintegrasikan presisi teknis, disiplin profesional, dan inklusi strategis dalam setiap kolaborasi."
 }
