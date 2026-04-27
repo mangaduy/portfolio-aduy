@@ -13,7 +13,7 @@
     "show_booking": false,
     "show_pdf": false
   },
-  "about": "I am an entrepreneur and specialty coffee specialist that works between technical precision, intellectual property development, and accessibility consultation. Through [Bar Peteng Slow Coffee Bar ](https://instagram.com/barpeteng)and intellectually licensed Pouring in the Dark, I explore taste architecture using blind sensory that has been commercially and educationally tested.\n\n\n\nAs the first internationally standardized curriculum certified blind barista in Indonesia with no modification, I believe in motoric discipline and brewing consistency. It is evident in the documentation of The Silent Brewing Project that has reached more than 500 episodes. The project validates that professional operational standard could be achieved despite physical limitation.\n\n\n\nMy track records include technical audit on public infrastructure, leadership on digital training, and business operational management.\n\n\n\nBased in Leeds, UK, I actively produce audio visual content. I intend to leverage every opportunity to hone my craft while also driving meaningful impact to create inclusive and accessible environment for everyone.",
+  "about": "I am an entrepreneur and specialty coffee specialist that works between technical precision, intellectual property development, and accessibility consultation. Through [Bar Peteng Slow Coffee Bar ](https://instagram.com/barpeteng)and intellectually licensed Pouring in the Dark, I explore taste architecture using blind sensory that has been commercially and educationally tested.\n\nAs the first internationally standardized curriculum certified blind barista in Indonesia with no modification, I believe in motoric discipline and brewing consistency. It is evident in the documentation of The Silent Brewing Project that has reached more than 500 episodes. The project validates that professional operational standard could be achieved despite physical limitation.\n\nMy track records include technical audit on public infrastructure, leadership on digital training, and business operational management.\n\nBased in Leeds, UK, I actively produce audio visual content. I intend to leverage every opportunity to hone my craft while also driving meaningful impact to create inclusive and accessible environment for everyone.",
   "headline": "Integrating technical precision, professional discipline, and strategic inclusion in every collaboration.",
   "sections": [
     {
@@ -22,22 +22,62 @@
         {
           "title": "Co-founder & Owner – <a href=\"https://instagram.com/barpeteng\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">Bar Peteng Slow Coffee Bar</a>, Indonesia",
           "year": "Feb 2024 – to date",
-          "desc": "•\tOrchestrated the end-to-end management, system planning, and menu development for a customized slow coffee bar.\n\n•\tOperating with full autonomy as the head barista, ensuring technical perfection and consistent quality in every service."
+          "desc": "Orchestrated the end-to-end management, system planning, and menu development for a customized slow coffee bar.\nOperating with full autonomy as the head barista, ensuring technical perfection and consistent quality in every service."
         },
         {
           "year": "June 2020 – May 2021",
           "title": "Co-founder – <a href=\"https://instagram.com/kjmmangaduy\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">Kopi Djamoe Mertjon (KJM) Mang Aduy</a>, Indonesia",
-          "desc": "•\tDeveloping and overseeing F&B business unit focusing on unique menu."
+          "desc": "Developing and overseeing F&B business unit focusing on unique menu."
         },
         {
           "year": "June 2019 – April 2021",
           "title": "Co-founder – <a href=\"https://instagram.com/mangaduy_laundry\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">Mang Aduy Laundromat</a>, Indonesia",
-          "desc": "•\tResponsible for the retail operational and management, customer service strategy, and business continuity plan."
+          "desc": "Responsible for the retail operational and management, customer service strategy, and business continuity plan."
         },
         {
           "year": "Dec 2017 – July 2018",
           "title": "Co-founder, CTO and System Developer kabardifabel.com",
-          "desc": "•\tDeveloping and leading website-based information platform on disability issues."
+          "desc": "Developing and leading website-based information platform on disability issues."
+        }
+      ]
+    },
+    {
+      "name": "Strategic Accessibility & Infrastructure Advisory",
+      "items": [
+        {
+          "year": "Sept 2023",
+          "title": "Infrastructure Auditor: Indonesian High-Speed Rail WHOOSH - Team Member of <a href=\"https://instagram.com/jbftjakarta\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">Jakarta Barrier Free Tourism</a>",
+          "desc": "Technical accessibility audit for the railway station, the car design, and the train crew understanding on accessibility and disability support."
+        },
+        {
+          "year": "Jan – Feb 2023",
+          "title": "Corporate Accessibility Consultant: <a href=\"https://cbm-global.org\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">CBM Global Disability Inclusion</a>  Indonesia Office - Team Member of <a href=\"https://instagram.com/jbftjakarta\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">Jakarta Barrier Free Tourism</a>",
+          "desc": "Strategic consulting service through accessibility audit on the building and facilities, surrounding area, social media, and CBM website."
+        }
+      ]
+    },
+    {
+      "name": "Intellectual Property & Sensory Asset Science",
+      "items": [
+        {
+          "title": "Founder & Registered Intellectual Property/HKI Owner – \"Pouring in the Dark\"",
+          "year": "2025 - Registered IP",
+          "desc": "Intellectual Property registered for the blind sensory experience and intimate coffee blind tasting methodology which mix between inclusive education and premium coffee experience, under the name of Achmad Yudha Rachmatullah, the legal name of Mang Aduy.\n\nSuccessfully trialed at [Mini Kopi](https://instagram.com/minikopi.greenville), Jakarta, Indonesia (2023) collaborated with [Juno The Coffee Company](https://instagram.com/juno_thecoffeecompany) & [Abeza Coffee Supply](https://instagram.com/abezacoffeesupply).\n\nOfficially launched with multiple sold-out sessions at [Bar Peteng Slow Coffee Bar](https://instagram.com/barpeteng) Indonesia (Sept-Oct 2025), collaborated with [Sakha Coffee Roastery](https://instagram.com/sakhacoffeeroastery)."
+        },
+        {
+          "year": "26 July 2025",
+          "title": "Professional Guest Barista – <a href=\"https://instagram.com/tokokopitjaraka\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">CBM Global Disability Inclusion</a>  Indonesia Office - Team Member of <a href=\"https://instagram.com/jbftjakarta\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">Toko Kopi Tjaraka</a>, Jakarta, Indonesia",
+          "desc": "One day bar take over serving specialty coffee beans using manual brew method directly to the customer."
+        },
+        {
+          "year": "28 – 30 June 2025",
+          "title": "Professional Guest Barista – <a href=\"https://instagram.com/tokokopi.lajeng\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">Toko Kopi Lajeng</a>  Indonesia Office - Team Member of <a href=\"https://instagram.com/jbftjakarta\" target=\"_blank\" style=\"color: inherit; text-decoration: none;\">Toko Kopi Lajeng</a>, Bandung, Indonesia",
+          "desc": "Three days bar take over serving specialty coffee beans using manual brew method directly to the customer."
+        },
+        {
+          "title": "The Silent Brewing Project: 500+ Episodes Content Production",
+          "year": "2024 – to date",
+          "desc": "Daily audio and visual (ASMR) documented coffee brewing that portrays meticulous technical discipline and consistency in Instagram [@mang.aduy](https://instagram.com/mang.aduy) and TikTok [@mng.aduy](https://tiktok.com/mng.aduy).\n\nThis project aims at organically educating audience on the precise manual brewing technique as well as a testimony to the ability of blind barista adhering to the professional standard coffee industry."
         }
       ]
     }
