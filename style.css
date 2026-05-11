@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #050505;
+    --bg-color: #1a1a1a;
     --text-color: #E0E0E0;
     --accent-color: #C5A059;
     --card-bg: #121212;
@@ -10,7 +10,7 @@ body { background: var(--bg-color); color: var(--text-color); font-family: 'Inte
 
 /* Desktop & Tablet Header */
 header { padding: clamp(60px, 10vh, 100px) 0 40px; text-align: center; }
-h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 8vw, 4rem); color: var(--accent-color); letter-spacing: clamp(4px, 1vw, 8px); margin: 0; }
+h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 6vw, 3rem); color: var(--accent-color); letter-spacing: clamp(4px, 1vw, 8px); margin: 0; }
 .headline { font-weight: 300; color: #888; margin: 20px auto; font-size: clamp(0.9rem, 2vw, 1.1rem); max-width: 700px; }
 
 /* Sticky Nav (Mobile Friendly) */
