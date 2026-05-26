@@ -83,11 +83,23 @@ collections:
                 name: instagram
                 widget: string
                 required: false
+              - label: Threads URL
+                name: threads
+                widget: string
+                required: false
               - label: TikTok URL
                 name: tiktok
                 widget: string
                 required: false
               - label: YouTube URL
                 name: youtube
+                widget: string
+                required: false
+              - label: LinkedIn URL
+                name: linkedin
+                widget: string
+                required: false
+              - label: Email
+                name: email
                 widget: string
                 required: false
