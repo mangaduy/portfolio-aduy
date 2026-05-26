@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mangaduy.netlify.app/sitemap.xml
