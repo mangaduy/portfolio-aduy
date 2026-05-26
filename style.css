@@ -8,31 +8,34 @@
 body { background: var(--bg-color); color: var(--text-color); font-family: 'Inter', sans-serif; margin: 0; line-height: 1.8; overflow-x: hidden; }
 .container { width: 90%; max-width: 900px; margin: 0 auto; padding: 0 15px; }
 
-/* Desktop & Tablet Header */
 header { padding: clamp(60px, 10vh, 100px) 0 40px; text-align: center; }
 h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 6vw, 3rem); color: var(--accent-color); letter-spacing: clamp(4px, 1vw, 8px); margin: 0; }
 .headline { font-weight: 300; color: #888; margin: 20px auto; font-size: clamp(0.9rem, 2vw, 1.1rem); max-width: 700px; }
 
-/* Sticky Nav (Mobile Friendly) */
-nav { position: sticky; top: 0; background: rgba(5, 5, 5, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid #222; z-index: 1000; padding: 15px 0; }
-nav ul { display: flex; justify-content: center; gap: clamp(10px, 3vw, 25px); list-style: none; padding: 0; margin: 0; flex-wrap: wrap; }
-nav a { color: #888; text-decoration: none; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 1px; font-weight: 600; }
-nav a:hover { color: var(--accent-color); }
+#about-section { margin-bottom: 40px; }
 
-/* Card Layout */
-.card { background: var(--card-bg); border-left: 4px solid var(--accent-color); padding: clamp(20px, 5vw, 40px); margin-bottom: clamp(15px, 3vh, 30px); transition: 0.3s; }
+.accordion-header { display: flex; justify-content: space-between; align-items: center; padding: clamp(15px, 3vw, 25px) clamp(20px, 5vw, 40px); background: var(--card-bg); border-left: 4px solid var(--accent-color); margin-bottom: 4px; cursor: pointer; transition: 0.3s; user-select: none; }
+.accordion-header:hover { border-color: white; }
+.accordion-header h2 { margin: 0; font-size: clamp(0.9rem, 2vw, 1.1rem); text-transform: uppercase; letter-spacing: 2px; font-family: 'Inter', sans-serif; font-weight: 600; }
+.accordion-arrow { color: var(--accent-color); font-size: 1.2rem; transition: transform 0.3s; }
+.accordion-header.open .accordion-arrow { transform: rotate(90deg); }
+.accordion-body { display: none; margin-bottom: clamp(15px, 3vh, 30px); }
+.accordion-body.open { display: block; }
+
+.card { background: var(--card-bg); border-left: 4px solid var(--accent-color); padding: clamp(20px, 5vw, 40px); margin-bottom: 4px; transition: 0.3s; }
 .card:hover { border-color: white; transform: translateY(-3px); }
 
-/* Buttons */
 .btn-gold { background: var(--accent-color); color: black; border: none; padding: 15px 30px; font-weight: 700; cursor: pointer; text-transform: uppercase; margin: 30px auto; display: block; width: fit-content; }
 
-/* PDF & Footer */
 footer { text-align: center; padding: 60px 0; border-top: 1px solid #222; }
+.footer-name { color: #888; font-size: 0.85rem; margin: 10px 0; }
 .copyright { font-size: 0.8rem; color: #666; margin-top: 10px; }
 
 @media print {
     body { background: white; color: black; }
-    .no-print, nav, .btn-gold { display: none !important; }
+    .no-print, .btn-gold { display: none !important; }
+    .accordion-header { border: 1px solid #ddd; background: white; color: black; }
+    .accordion-body { display: block !important; }
     .card { border: 1px solid #ddd; background: white; color: black; page-break-inside: avoid; }
 }
 
@@ -45,3 +48,5 @@ footer { text-align: center; padding: 60px 0; border-top: 1px solid #222; }
 
 #profile-photo-wrapper { display: flex; justify-content: center; margin-bottom: 20px; }
 #profile-photo { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-color); display: none; }
+
+.inline-link { color: var(--accent-color); }
