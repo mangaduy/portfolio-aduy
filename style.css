@@ -50,3 +50,13 @@ footer { text-align: center; padding: 60px 0; border-top: 1px solid #222; }
 #profile-photo { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-color); display: none; }
 
 .inline-link { color: var(--accent-color); }
+
+.form-group { margin-bottom: 24px; }
+.form-group label { display: block; color: #888; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; font-weight: 600; }
+.form-group input, .form-group select, .form-group textarea { width: 100%; background: var(--card-bg); border: 1px solid #333; color: var(--text-color); padding: 12px 16px; font-family: 'Inter', sans-serif; font-size: 1rem; box-sizing: border-box; }
+.form-group input:focus, .form-group select, .form-group textarea:focus { outline: 2px solid var(--accent-color); border-color: var(--accent-color); }
+.form-group select { cursor: pointer; }
+.required { color: var(--accent-color); }
+.checkbox-group { display: flex; flex-direction: column; gap: 12px; }
+.checkbox-label { display: flex; align-items: center; gap: 10px; color: var(--text-color); cursor: pointer; font-size: 0.95rem; }
+.checkbox-label input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent-color); cursor: pointer; }
