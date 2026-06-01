@@ -8,8 +8,7 @@ async function init() {
         document.getElementById('footer-branding').innerText = data.branding.footer_name;
         document.getElementById('user-name').innerText = data.branding.footer_name;
         document.getElementById('copyright-text').innerText = data.branding.copyright || "© 2026 Mang Aduy";
-        window.tallyUrl = data.settings.tally_url;
-
+        
         if(data.branding.photo) {
             const img = document.getElementById('profile-photo');
             img.src = data.branding.photo;
