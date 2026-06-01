@@ -34,9 +34,6 @@ collections:
               - label: Tampilkan Tombol Booking
                 name: show_booking
                 widget: boolean
-              - label: Link Tally Form
-                name: tally_url
-                widget: string
           - label: Seksi Portofolio
             name: sections
             widget: list
