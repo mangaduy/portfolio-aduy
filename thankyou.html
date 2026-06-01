@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Mang Aduy</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header role="banner">
+        <div class="container" style="text-align:center; padding-top: 60px;">
+            <div id="profile-photo-wrapper">
+                <img id="profile-photo" src="" alt="Foto Mang Aduy" />
+            </div>
+            <h1 id="user-name">MANG ADUY</h1>
+        </div>
+    </header>
+
+    <main role="main">
+        <div class="container" style="text-align:center; margin: 60px 0;">
+            <h2 style="color: var(--accent-color); text-transform: uppercase; letter-spacing: 2px; font-family: 'Inter', sans-serif; font-size: 1.1rem;">Thank You</h2>
+            <p style="color: #888; max-width: 500px; margin: 20px auto;">Thank you for reaching out. I will review your message and get back to you shortly.</p>
+            <a href="/" class="btn-gold" style="text-decoration:none; margin-top: 30px;">Back to Portfolio</a>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container" style="text-align:center; padding: 40px 0;">
+            <p id="footer-branding" class="footer-name"></p>
+            <p id="copyright-text" class="copyright"></p>
+        </div>
+    </footer>
+
+    <script>
+        async function loadConfig() {
+            const res = await fetch('config.json');
+            const data = await res.json();
+            document.getElementById('user-name').innerText = data.branding.footer_name;
+            document.getElementById('footer-branding').innerText = data.branding.footer_name;
+            document.getElementById('copyright-text').innerText = data.branding.copyright || '© 2026 Mang Aduy. All Rights Reserved.';
+            if(data.branding.photo) {
+                const img = document.getElementById('profile-photo');
+                img.src = data.branding.photo;
+                img.style.display = 'block';
+            }
+        }
+        loadConfig();
+    </script>
+</body>
+</html>
